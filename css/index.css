@@ -2797,7 +2797,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #f7f7fa;
-  --anzhiyu-background: #18171d;
+  --anzhiyu-background: url("https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/bg_dark.png");
   --anzhiyu-reverse: #fff;
   --anzhiyu-maskbg: rgba(0,0,0,0.6);
   --anzhiyu-maskbgdeep: rgba(0,0,0,0.85);
@@ -2865,7 +2865,7 @@ input::placeholder {
   -ms-transform: rotate(-1deg);
   transform: rotate(-1deg);
   -webkit-overflow-scrolling: touch;
-  background: var(--anzhiyu-background);
+  background-image: var(--anzhiyu-background);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -9236,7 +9236,7 @@ h1.page-title + .tag-cloud-list {
   text-align: left;
   font-weight: 700;
   color: var(--anzhiyu-white);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;
   margin-bottom: 5px;
   margin-top: 0;
@@ -20297,7 +20297,7 @@ div#category {
 
 /*夜间模式伪类遮罩层透明*/
 [data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #121212;
+  background: #110022;
 }
 
 [data-theme="dark"] .card-widget {
