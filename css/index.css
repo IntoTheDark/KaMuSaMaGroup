@@ -12443,7 +12443,7 @@ h1.page-title + .tag-cloud-list {
 }
 [data-theme="dark"] #center-console:checked + label:is(.widget,
 #center-console:checked + label .widget:hover) i {
-  background: var(--anzhiyu-black) !important;
+  background: var(--anzhiyu-card-bg) !important;
 }
 #body-wrap .nav-fixed #travellings_button::after {
   background: var(--anzhiyu-main) !important;
