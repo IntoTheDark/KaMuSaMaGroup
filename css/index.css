@@ -2855,15 +2855,13 @@ input::placeholder {
 #web_bg {
   position: fixed;
   z-index: -999;
-  width: 200%;
-  height: 200%;
-  top: -50%;
-  left: -50%;
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  transform: rotate(-1deg);
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
   -webkit-overflow-scrolling: touch;
   background-image: var(--anzhiyu-background);
   background-attachment: local;
@@ -7301,6 +7299,7 @@ body[data-type="link"] #page .page-title {
   cursor: pointer;
   position: relative;
   padding: 0;
+  background: rgba(0,0,0,0.1);
   display: inline-block;
   overflow: hidden;
 }
@@ -20297,7 +20296,7 @@ div#category {
 
 /*夜间模式伪类遮罩层透明*/
 [data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #110022;
+  background: url('https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/netherrack.png');
 }
 
 [data-theme="dark"] .card-widget {
@@ -20382,6 +20381,10 @@ html.hide-aside .layout > div:first-child {
 /* 文章hover边框 */
 #recent-posts .recent-post-item:hover {
   border: var(--style-border-hover);
+    border: 32px solid transparent;
+  margin: 16px;
+  border-image: url('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1751900271377/border-img.png') 32 round;
+  clip-path: inset(0 round 10px);
 }
 #recent-posts .recent-post-item:hover .recent-post-info .article-title {
   color: var(--anzhiyu-theme);
@@ -20394,6 +20397,10 @@ html.hide-aside .layout > div:first-child {
   border: var(--style-border);
   box-shadow: var(--anzhiyu-shadow-border);
   user-select: none;
+  border: 32px solid transparent;
+  margin: 16px;
+  border-image: url('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1751900271377/border-img.png') 32 round;
+  clip-path: inset(0 round 10px);
 }
 /* 移动端容器padding */
 @media screen and (max-width: 768px) {
