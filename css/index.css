@@ -20291,7 +20291,7 @@ div#category {
 
 /*夜间模式伪类遮罩层透明*/
 [data-theme="dark"] #recent-posts > .recent-post-item {
-  background: url('https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/netherrack.png');
+  background: url('https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/crimson_nylium.png');
 }
 
 [data-theme="dark"] .card-widget {
