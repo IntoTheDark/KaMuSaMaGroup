@@ -22910,7 +22910,7 @@ body[data-type="envelope"] #page #post-comment .tk-comments-container > .tk-comm
   box-shadow: none;
 }
 
-#universe {
+[data-theme="dark"] #universe {
   display: block;
   position: fixed;
   margin: 0;
