@@ -20635,7 +20635,7 @@ a.catalog-more:hover {
 }
 
 [data-theme="dark"] #category-bar.category-bar {
-  background: var(--anzhiyu-background);
+  background: var(--anzhiyu-card-bg);
 }
 
 @media screen and (max-width: 768px) {
@@ -20658,7 +20658,7 @@ a.catalog-more:hover {
     background: var(--anzhiyu-background);
   }
   [data-theme="dark"] #category-bar.category-bar {
-    background: var(--anzhiyu-black);
+    background: var(--anzhiyu-card-bg);
   }
   #category-bar.category-bar:hover {
     border: none;
