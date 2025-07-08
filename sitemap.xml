@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://k.intothedark.top/link/index.html</loc>
+    
+    <lastmod>2025-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://k.intothedark.top/posts/9852/</loc>
     
     <lastmod>2025-07-08</lastmod>
@@ -23,15 +32,6 @@
     <loc>http://k.intothedark.top/about/index.html</loc>
     
     <lastmod>2022-11-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://k.intothedark.top/link/index.html</loc>
-    
-    <lastmod>2022-11-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
