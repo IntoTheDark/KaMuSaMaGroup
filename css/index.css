@@ -2798,6 +2798,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #f7f7fa;
   --anzhiyu-background: url("https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/bg_dark.png");
+  --anzhiyu-background-768: url("https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/2025-06-01_11.29.32.png") top/cover no-repeat;
   --anzhiyu-reverse: #fff;
   --anzhiyu-maskbg: rgba(0,0,0,0.6);
   --anzhiyu-maskbgdeep: rgba(0,0,0,0.85);
@@ -13021,7 +13022,7 @@ h1.page-title + .tag-cloud-list {
   transition: 0.2s !important;
 }
 .back-menu-list-groups .back-menu-list .back-menu-item .back-menu-item-text {
-  font-size: var(--global-font-size);
+  font-size: 14px;
   margin-left: 0.5rem;
   color: var(--anzhiyu-fontcolor);
   white-space: nowrap;
@@ -14083,7 +14084,7 @@ blockquote {
 }
 @media screen and (max-width: 768px) {
   #post {
-    background: var(--anzhiyu-background) !important;
+    background: var(--anzhiyu-background-768) !important;
     border: none;
   }
 }
@@ -20298,6 +20299,19 @@ html.hide-aside .layout > div:first-child {
     padding: 20px 15px !important;
   }
 }
+
+  #page-header.full_page{
+    background: url(https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/xmzhufm.png) top / cover no-repeat
+  }
+
+/* 移动端开屏 */
+@media screen and (max-width: 768px) {
+  #page-header.full_page{
+    background: url(https://kamuamua-1300419798.cos.ap-shanghai.myqcloud.com/xmzhufm_1.png) top / cover no-repeat;
+  }
+}
+
+
 /* 首页文章宽度 */
 @media screen and (max-width: 1200px) {
   .layout > div:first-child {
@@ -20748,7 +20762,7 @@ body:has(.post-bg) #he-plugin-simple .s-sticker div {
   top: 0px;
   left: 0px;
   background: var(--anzhiyu-main);
-  color: rgb(255, 255, 255);
+  color: #27000b;
   transition: all 0.3s ease-out 0s;
 }
 #article-container ol > li::before {
